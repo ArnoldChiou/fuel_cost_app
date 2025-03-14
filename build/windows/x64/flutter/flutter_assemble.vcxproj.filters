@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\CMakeFiles\c80743e1c98cbb78059723589513ab6b\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\CMakeFiles\ab300a9e31f82547186b5013c96f896a\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EBF8C2D5-D167-390F-A817-39C8A6D15307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

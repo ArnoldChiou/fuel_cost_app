@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\CMakeFiles\4b0bdb7a0e513f67bb7cd98910272a75\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EBF8C2D5-D167-390F-A817-39C8A6D15307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
