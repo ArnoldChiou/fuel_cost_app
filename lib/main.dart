@@ -5,47 +5,43 @@ void main() {
 }
 
 class FuelCostApp extends StatelessWidget {
-  const FuelCostApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '油耗成本計算',
+      title: '每公里成本計算',
       home: FuelCostCalculator(),
     );
   }
 }
 
 class FuelCostCalculator extends StatefulWidget {
-  const FuelCostCalculator({super.key});
-
   @override
   _FuelCostCalculatorState createState() => _FuelCostCalculatorState();
 }
 
 class _FuelCostCalculatorState extends State<FuelCostCalculator> {
+  final TextEditingController litersController = TextEditingController();
   final TextEditingController distanceController = TextEditingController();
-  final TextEditingController consumptionController = TextEditingController();
-  final TextEditingController fuelPriceController = TextEditingController();
+  final TextEditingController totalCostController = TextEditingController();
 
   String result = '';
 
   void calculateCost() {
+    final double liters = double.tryParse(litersController.text) ?? 0;
     final double distance = double.tryParse(distanceController.text) ?? 0;
-    final double consumption = double.tryParse(consumptionController.text) ?? 0;
-    final double fuelPrice = double.tryParse(fuelPriceController.text) ?? 0;
+    final double totalCost = double.tryParse(totalCostController.text) ?? 0;
 
-    if (distance <= 0 || consumption <= 0 || fuelPrice <= 0) {
+    if (liters <= 0 || distance <= 0 || totalCost <= 0) {
       setState(() {
         result = '請輸入有效數據';
       });
       return;
     }
 
-    final cost = (distance / consumption) * fuelPrice;
+    final costPerKm = totalCost / distance;
 
     setState(() {
-      result = '總成本：NT\$${cost.toStringAsFixed(2)}';
+      result = '每公里成本：NT\$${costPerKm.toStringAsFixed(2)}';
     });
   }
 
@@ -53,14 +49,21 @@ class _FuelCostCalculatorState extends State<FuelCostCalculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('油耗成本計算'),
+        title: Text('每公里成本計算'),
         backgroundColor: Colors.green,
       ),
-      body: Padding(
+      body: SingleChildScrollView( // 加上這一層解決溢出問題
         padding: EdgeInsets.all(20.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            TextField(
+              controller: litersController,
+              decoration: InputDecoration(
+                labelText: '加油公升數',
+              ),
+              keyboardType: TextInputType.numberWithOptions(decimal: true),
+            ),
             TextField(
               controller: distanceController,
               decoration: InputDecoration(
@@ -69,26 +72,19 @@ class _FuelCostCalculatorState extends State<FuelCostCalculator> {
               keyboardType: TextInputType.numberWithOptions(decimal: true),
             ),
             TextField(
-              controller: consumptionController,
+              controller: totalCostController,
               decoration: InputDecoration(
-                labelText: '油耗 (公里/公升)',
-              ),
-              keyboardType: TextInputType.numberWithOptions(decimal: true),
-            ),
-            TextField(
-              controller: fuelPriceController,
-              decoration: InputDecoration(
-                labelText: '油價 (每公升價格)',
+                labelText: '加油總金額',
               ),
               keyboardType: TextInputType.numberWithOptions(decimal: true),
             ),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: calculateCost,
+              child: Text('計算每公里成本'),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green,
               ),
-              child: Text('計算成本'),
             ),
             SizedBox(height: 20),
             Text(
