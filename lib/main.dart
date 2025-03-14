@@ -5,6 +5,8 @@ void main() {
 }
 
 class FuelCostApp extends StatelessWidget {
+  const FuelCostApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,6 +17,8 @@ class FuelCostApp extends StatelessWidget {
 }
 
 class FuelCostCalculator extends StatefulWidget {
+  const FuelCostCalculator({super.key});
+
   @override
   _FuelCostCalculatorState createState() => _FuelCostCalculatorState();
 }
@@ -81,10 +85,10 @@ class _FuelCostCalculatorState extends State<FuelCostCalculator> {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: calculateCost,
-              child: Text('計算每公里成本'),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green,
               ),
+              child: Text('計算每公里成本'),
             ),
             SizedBox(height: 20),
             Text(

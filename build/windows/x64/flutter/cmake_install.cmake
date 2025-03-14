@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows/flutter
+# Install script for directory: C:/Users/Arnold/Documents/fuel_cost_app/windows/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

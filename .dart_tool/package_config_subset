@@ -94,10 +94,6 @@ vm_service
 3.3
 file:///C:/Users/Arnold/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.3.1/
 file:///C:/Users/Arnold/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.3.1/lib/
-fuel_cost_app
-3.7
-file:///C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/
-file:///C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/lib/
 sky_engine
 3.7
 file:///C:/Users/Arnold/Documents/flutter/bin/cache/pkg/sky_engine/
@@ -110,4 +106,8 @@ flutter_test
 3.7
 file:///C:/Users/Arnold/Documents/flutter/packages/flutter_test/
 file:///C:/Users/Arnold/Documents/flutter/packages/flutter_test/lib/
+fuel_cost_app
+3.7
+file:///C:/Users/Arnold/Documents/fuel_cost_app/
+file:///C:/Users/Arnold/Documents/fuel_cost_app/lib/
 2

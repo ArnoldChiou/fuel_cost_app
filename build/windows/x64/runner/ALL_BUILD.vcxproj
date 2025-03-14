@@ -21,7 +21,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7752148F-DA30-3C01-BFBF-DFFDB9105E54}</ProjectGuid>
+    <ProjectGuid>{94557F0E-5BA0-3DF3-AA39-FBB92A11697D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\windows\runner\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Arnold\Documents\fuel_cost_app\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Arnold/Documents/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows -BC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Documents/fuel_cost_app/windows -BC:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Arnold\Documents\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Arnold/Documents/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows -BC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Documents/fuel_cost_app/windows -BC:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Arnold\Documents\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Arnold/Documents/fuel_cost_app/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/windows -BC:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Desktop/fuel_cost_app/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Arnold/Documents/fuel_cost_app/windows -BC:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64 --check-stamp-file C:/Users/Arnold/Documents/fuel_cost_app/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,21 +127,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Arnold\Documents\fuel_cost_app\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{2513EBFA-09F3-3683-8528-4E4642D3D2A7}</Project>
+    <ProjectReference Include="C:\Users\Arnold\Documents\fuel_cost_app\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{B0C98F35-6562-348E-AFB0-16B6A5403582}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Arnold\Desktop\fuel_cost_app\fuel_cost_app\build\windows\x64\runner\fuel_cost_app.vcxproj">
-      <Project>{64330119-556A-3694-BA82-1690345029C4}</Project>
+    <ProjectReference Include="C:\Users\Arnold\Documents\fuel_cost_app\build\windows\x64\runner\fuel_cost_app.vcxproj">
+      <Project>{FAA142BF-3B5C-312A-867D-9758A07FC15D}</Project>
       <Name>fuel_cost_app</Name>
     </ProjectReference>
   </ItemGroup>
