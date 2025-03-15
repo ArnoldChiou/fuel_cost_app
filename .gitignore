@@ -1,3 +1,20 @@
 .dart_tool/package_config_subset
 
 .dart_tool/package_config.json
+# Flutter
+**/build/
+**/.dart_tool/
+**/.idea/
+**/.vscode/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.DS_Store
+**/pubspec.lock
+
+# macOS/Windows/Linux
+**/ios/Pods/
+**/android/.gradle/
+**/android/app/debug.keystore
+**/windows/CMakeLists.txt
+**/linux/CMakeLists.txt
